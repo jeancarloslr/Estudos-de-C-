@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MusicBand
-build_property.ProjectDir = C:\Users\jeanj.LAPTOP-4GK6VV3H\OneDrive\Documentos\estudos\c#\estudos\MusicBand\MusicBand\
+build_property.ProjectDir = /workspaces/Estudos-de-C-/MusicBand/MusicBand/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,0 +1,15 @@
+/workspaces/Estudos-de-C-/MusicBand/MusicBand/bin/Debug/net8.0/MusicBand
+/workspaces/Estudos-de-C-/MusicBand/MusicBand/bin/Debug/net8.0/MusicBand.deps.json
+/workspaces/Estudos-de-C-/MusicBand/MusicBand/bin/Debug/net8.0/MusicBand.runtimeconfig.json
+/workspaces/Estudos-de-C-/MusicBand/MusicBand/bin/Debug/net8.0/MusicBand.dll
+/workspaces/Estudos-de-C-/MusicBand/MusicBand/bin/Debug/net8.0/MusicBand.pdb
+/workspaces/Estudos-de-C-/MusicBand/MusicBand/obj/Debug/net8.0/MusicBand.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Estudos-de-C-/MusicBand/MusicBand/obj/Debug/net8.0/MusicBand.AssemblyInfoInputs.cache
+/workspaces/Estudos-de-C-/MusicBand/MusicBand/obj/Debug/net8.0/MusicBand.AssemblyInfo.cs
+/workspaces/Estudos-de-C-/MusicBand/MusicBand/obj/Debug/net8.0/MusicBand.csproj.CoreCompileInputs.cache
+/workspaces/Estudos-de-C-/MusicBand/MusicBand/obj/Debug/net8.0/MusicBand.sourcelink.json
+/workspaces/Estudos-de-C-/MusicBand/MusicBand/obj/Debug/net8.0/MusicBand.dll
+/workspaces/Estudos-de-C-/MusicBand/MusicBand/obj/Debug/net8.0/refint/MusicBand.dll
+/workspaces/Estudos-de-C-/MusicBand/MusicBand/obj/Debug/net8.0/MusicBand.pdb
+/workspaces/Estudos-de-C-/MusicBand/MusicBand/obj/Debug/net8.0/MusicBand.genruntimeconfig.cache
+/workspaces/Estudos-de-C-/MusicBand/MusicBand/obj/Debug/net8.0/ref/MusicBand.dll
