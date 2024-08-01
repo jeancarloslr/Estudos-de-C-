@@ -1,1 +1,0 @@
-Consolee.WriteLine('Quantos números pretende somar?');
