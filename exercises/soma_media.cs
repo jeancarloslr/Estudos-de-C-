@@ -1,4 +1,4 @@
-﻿int media;
+int media;
 int valorAcumulado = 0;
 int cont = 1;
 Console.WriteLine("Seja bem vindo a somatória de valores, comece inserindo quantos números deseja somar.");
