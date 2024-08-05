@@ -1,4 +1,4 @@
- //for
+//for
 string[] valores = {"jean", "siuuuu", "farmamake", "beterraba", "opa"};
 for(int i=0; i<=valores.Length; i++){
     Console.WriteLine(valores[i]);
