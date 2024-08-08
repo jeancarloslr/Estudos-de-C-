@@ -6,6 +6,7 @@ string QuantidadeN = Console.ReadLine();
 int QuantidadeConvertida = Convert.ToInt32(QuantidadeN);
 
 while(cont <= QuantidadeConvertida){
+    
     Console.WriteLine($"Digite o {cont} valor: ");
     string valorSomado = Console.ReadLine();
     int valorSomadoConvert = Convert.ToInt32(valorSomado);
@@ -14,6 +15,7 @@ while(cont <= QuantidadeConvertida){
         break;
     }
     cont++;
+
 }; 
 
 Console.WriteLine($"o valor total é {valorAcumulado}");

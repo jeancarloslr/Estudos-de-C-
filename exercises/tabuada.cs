@@ -1,4 +1,4 @@
-﻿void visor(){
+void visor(){
 Console.WriteLine("Seja bem vindo a tabuada SuperNumber!");
 Console.WriteLine("-------------------------------------");
 Console.WriteLine("Escolha um número.");
@@ -15,13 +15,5 @@ void looping(){
 
 visor();
 looping();
-
-
-
-
-
-
-
-
 
 
