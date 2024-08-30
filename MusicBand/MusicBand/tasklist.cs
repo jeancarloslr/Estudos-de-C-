@@ -1,29 +1,28 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 
 class Program
 {
     public static void Main()
     {
-        // Chama o método WelcomeMessage e armazena o retorno na variável resposta
+         //creating the list(tasks)
+         // Chama o método WelcomeMessage e armazena o retorno na variável resposta
         string resposta = WelcomeMessage();
 
         switch (resposta){
             case "1":
              addTask();
             break;
-
             case "2":
              //function removeTask
             break;
-
             case "3":
              //function view the list
              break;
-
             case "4":
              //function exit the program
              break;
-            
             default:
             //type a true value.
             break;
@@ -46,6 +45,7 @@ class Program
     }
 
     static void addTask(){
-        Console.WriteLine("Hello World");
+        Console.WriteLine("Digite sua nova tarefa, por favor.");
+        string taks = Console.ReadLine();  
     }
 }
