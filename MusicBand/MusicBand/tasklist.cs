@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-
 class Program
 {
     public static void Main()
@@ -27,12 +26,16 @@ class Program
             //type a true value.
             break;
         }
-        
         // Exibe a resposta (opcional, dependendo do que você deseja fazer com a resposta)
         Console.WriteLine("Você escolheu: " + resposta);
     }
-
     // Método que exibe uma mensagem de boas-vindas e retorna a resposta do usuário
+
+    public static string CriandoLista(string tarefaUser){
+        List<string> tarefas = new List<string>();
+        tarefas.Add(tarefaUser);
+        return tarefaUser;
+    } 
     public static string WelcomeMessage() 
     {
         Console.WriteLine("----------WELCOME TO TASK LIST---------");
@@ -45,7 +48,8 @@ class Program
     }
 
     static void addTask(){
-        Console.WriteLine("Digite sua nova tarefa, por favor.");
-        string taks = Console.ReadLine();  
+    Console.WriteLine("Digite sua nova tarefa, por favor.");
+    string taks = Console.ReadLine(); 
+    string valor = CriandoLista(taks);
     }
 }

@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/Estudos-de-C-/MusicBand/MusicBand/MusicBand.csproj": {}
+    "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\OneDrive\\Documentos\\estudos\\c#\\estudos\\exercises_c#\\Estudos-de-C-\\MusicBand\\MusicBand\\MusicBand.csproj": {}
   },
   "projects": {
-    "/workspaces/Estudos-de-C-/MusicBand/MusicBand/MusicBand.csproj": {
+    "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\OneDrive\\Documentos\\estudos\\c#\\estudos\\exercises_c#\\Estudos-de-C-\\MusicBand\\MusicBand\\MusicBand.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/Estudos-de-C-/MusicBand/MusicBand/MusicBand.csproj",
+        "projectUniqueName": "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\OneDrive\\Documentos\\estudos\\c#\\estudos\\exercises_c#\\Estudos-de-C-\\MusicBand\\MusicBand\\MusicBand.csproj",
         "projectName": "MusicBand",
-        "projectPath": "/workspaces/Estudos-de-C-/MusicBand/MusicBand/MusicBand.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/Estudos-de-C-/MusicBand/MusicBand/obj/",
+        "projectPath": "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\OneDrive\\Documentos\\estudos\\c#\\estudos\\exercises_c#\\Estudos-de-C-\\MusicBand\\MusicBand\\MusicBand.csproj",
+        "packagesPath": "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\OneDrive\\Documentos\\estudos\\c#\\estudos\\exercises_c#\\Estudos-de-C-\\MusicBand\\MusicBand\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
