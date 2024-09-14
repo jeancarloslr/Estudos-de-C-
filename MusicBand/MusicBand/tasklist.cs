@@ -5,10 +5,9 @@ class Program
 {
     public static void Main()
     {
-         //creating the list(tasks)
-         // Chama o método WelcomeMessage e armazena o retorno na variável resposta
+        //creating the list(tasks)
+        // Chama o método WelcomeMessage e armazena o retorno na variável resposta
         string resposta = WelcomeMessage();
-
         switch (resposta){
             case "1":
              addTask();
@@ -17,10 +16,10 @@ class Program
              //function removeTask
             break;
             case "3":
-             //function view the list
+             //function view the list.
              break;
             case "4":
-             //function exit the program
+             //function exit the program.
              break;
             default:
             //type a true value.
@@ -29,13 +28,7 @@ class Program
         // Exibe a resposta (opcional, dependendo do que você deseja fazer com a resposta)
         Console.WriteLine("Você escolheu: " + resposta);
     }
-    // Método que exibe uma mensagem de boas-vindas e retorna a resposta do usuário
-
-    public static string CriandoLista(string tarefaUser){
-        List<string> tarefas = new List<string>();
-        tarefas.Add(tarefaUser);
-        return tarefaUser;
-    } 
+    
     public static string WelcomeMessage() 
     {
         Console.WriteLine("----------WELCOME TO TASK LIST---------");
@@ -46,7 +39,6 @@ class Program
         string resposta = Console.ReadLine();
         return resposta;
     }
-
     static void addTask(){
     Console.WriteLine("Digite sua nova tarefa, por favor.");
     string taks = Console.ReadLine(); 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\OneDrive\\Documentos\\estudos\\c#\\estudos\\exercises_c#\\Estudos-de-C-\\MusicBand\\MusicBand\\MusicBand.csproj": {}
+    "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\OneDrive\\Documentos\\estudos\\c#\\estudos\\Estudos-de-C-\\MusicBand\\MusicBand\\MusicBand.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\OneDrive\\Documentos\\estudos\\c#\\estudos\\exercises_c#\\Estudos-de-C-\\MusicBand\\MusicBand\\MusicBand.csproj": {
+    "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\OneDrive\\Documentos\\estudos\\c#\\estudos\\Estudos-de-C-\\MusicBand\\MusicBand\\MusicBand.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\OneDrive\\Documentos\\estudos\\c#\\estudos\\exercises_c#\\Estudos-de-C-\\MusicBand\\MusicBand\\MusicBand.csproj",
+        "projectUniqueName": "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\OneDrive\\Documentos\\estudos\\c#\\estudos\\Estudos-de-C-\\MusicBand\\MusicBand\\MusicBand.csproj",
         "projectName": "MusicBand",
-        "projectPath": "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\OneDrive\\Documentos\\estudos\\c#\\estudos\\exercises_c#\\Estudos-de-C-\\MusicBand\\MusicBand\\MusicBand.csproj",
+        "projectPath": "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\OneDrive\\Documentos\\estudos\\c#\\estudos\\Estudos-de-C-\\MusicBand\\MusicBand\\MusicBand.csproj",
         "packagesPath": "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\OneDrive\\Documentos\\estudos\\c#\\estudos\\exercises_c#\\Estudos-de-C-\\MusicBand\\MusicBand\\obj\\",
+        "outputPath": "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\OneDrive\\Documentos\\estudos\\c#\\estudos\\Estudos-de-C-\\MusicBand\\MusicBand\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\AppData\\Roaming\\NuGet\\NuGet.Config",
