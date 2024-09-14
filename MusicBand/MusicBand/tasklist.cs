@@ -1,34 +1,42 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
+
 class Program
 {
+    public static class Global
+    {
+        public static string tarefa = ""; // Inicialização do campo tarefa
+        public static List<string> tarefas = new List<string>();
+    }
+
     public static void Main()
     {
-        //creating the list(tasks)
-        // Chama o método WelcomeMessage e armazena o retorno na variável resposta
-        string resposta = WelcomeMessage();
-        switch (resposta){
-            case "1":
-             addTask();
-            break;
-            case "2":
-             //function removeTask
-            break;
-            case "3":
-             //function view the list.
-             break;
-            case "4":
-             //function exit the program.
-             break;
-            default:
-            //type a true value.
-            break;
+        while (true) // Loop para permitir múltiplas operações até que o usuário decida sair
+        {
+            // Chama o método WelcomeMessage e armazena o retorno na variável resposta
+            string resposta = WelcomeMessage();
+            switch (resposta)
+            {
+                case "1":
+                    addTask();
+                    break;
+                case "2":
+                    removeTask();
+                    break;
+                case "3":
+                    viewTasks();
+                    break;
+                case "4":
+                    // Exit the program
+                    Console.WriteLine("Saindo do programa...");
+                    return; // Termina a execução do programa
+                default:
+                    Console.WriteLine("Valor inválido. Por favor, digite um valor entre 1 e 4.");
+                    break;
+            }
         }
-        // Exibe a resposta (opcional, dependendo do que você deseja fazer com a resposta)
-        Console.WriteLine("Você escolheu: " + resposta);
     }
-    
+
     public static string WelcomeMessage() 
     {
         Console.WriteLine("----------WELCOME TO TASK LIST---------");
@@ -39,9 +47,24 @@ class Program
         string resposta = Console.ReadLine();
         return resposta;
     }
-    static void addTask(){
-    Console.WriteLine("Digite sua nova tarefa, por favor.");
-    string taks = Console.ReadLine(); 
-    string valor = CriandoLista(taks);
+
+    static void addTask()
+    {
+        Console.WriteLine("Digite sua nova tarefa, por favor.");
+        Global.tarefa = Console.ReadLine();
+        Global.tarefas.Add(Global.tarefa);
+        MostrarTarefas();
     }
+
+    static void MostrarTarefas()
+    {
+        Console.WriteLine("---- Lista de Tarefas ----");
+        foreach (string item in Global.tarefas)
+        {
+            Console.WriteLine(item);
+        }
+        Console.WriteLine("--------------------------");
+    }
+
+   
 }
