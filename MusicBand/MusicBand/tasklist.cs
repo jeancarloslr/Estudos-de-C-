@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-
 class Program
 {
     public static class Global
@@ -8,11 +7,8 @@ class Program
         public static string tarefa = ""; // Inicialização do campo tarefa
         public static List<string> tarefas = new List<string>();
     }
-
     public static void Main()
     {
-        while (true) // Loop para permitir múltiplas operações até que o usuário decida sair
-        {
             // Chama o método WelcomeMessage e armazena o retorno na variável resposta
             string resposta = WelcomeMessage();
             switch (resposta)
@@ -34,7 +30,7 @@ class Program
                     Console.WriteLine("Valor inválido. Por favor, digite um valor entre 1 e 4.");
                     break;
             }
-        }
+        
     }
 
     public static string WelcomeMessage() 
@@ -47,13 +43,20 @@ class Program
         string resposta = Console.ReadLine();
         return resposta;
     }
-
     static void addTask()
     {
         Console.WriteLine("Digite sua nova tarefa, por favor.");
         Global.tarefa = Console.ReadLine();
         Global.tarefas.Add(Global.tarefa);
         MostrarTarefas();
+    }
+
+    static void removeTask(){
+        Console.WriteLine("nothing to do");
+    }
+
+    static void viewTasks(){
+        Console.WriteLine("nothing to do...")
     }
 
     static void MostrarTarefas()
@@ -65,6 +68,4 @@ class Program
         }
         Console.WriteLine("--------------------------");
     }
-
-   
 }
