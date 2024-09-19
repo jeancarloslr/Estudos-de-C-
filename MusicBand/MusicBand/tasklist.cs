@@ -16,6 +16,7 @@ class Program
                 case "1":
                     addTask();
                     break;
+                    /*
                 case "2":
                     removeTask();
                     break;
@@ -26,13 +27,12 @@ class Program
                     // Exit the program
                     Console.WriteLine("Saindo do programa...");
                     return; // Termina a execução do programa
+                    */
                 default:
                     Console.WriteLine("Valor inválido. Por favor, digite um valor entre 1 e 4.");
                     break;
-            }
-        
+            } 
     }
-
     public static string WelcomeMessage() 
     {
         Console.WriteLine("----------WELCOME TO TASK LIST---------");
@@ -50,7 +50,7 @@ class Program
         Global.tarefas.Add(Global.tarefa);
         MostrarTarefas();
     }
-
+/*
     static void removeTask(){
         Console.WriteLine("nothing to do");
     }
@@ -58,7 +58,7 @@ class Program
     static void viewTasks(){
         Console.WriteLine("nothing to do...")
     }
-
+*/
     static void MostrarTarefas()
     {
         Console.WriteLine("---- Lista de Tarefas ----");
