@@ -9,29 +9,32 @@ class Program
     }
     public static void Main()
     {
+        string resposta;
+        do
+        {
             // Chama o método WelcomeMessage e armazena o retorno na variável resposta
-            string resposta = WelcomeMessage();
+            resposta = WelcomeMessage();
             switch (resposta)
             {
                 case "1":
-                    addTask();
+                    AddTask();
                     break;
-                    /*
-                case "2":
-                    removeTask();
-                    break;
-                case "3":
-                    viewTasks();
-                    break;
-                case "4":
-                    // Exit the program
-                    Console.WriteLine("Saindo do programa...");
-                    return; // Termina a execução do programa
-                    */
+                
+            case "2":
+                removeTask();
+                break;
+            case "3":
+                MostrarTarefas();
+                break;
+            case "4":
+                // Exit the program
+                Console.WriteLine("Saindo do programa...");
+                return; // Termina a execução do programa
                 default:
                     Console.WriteLine("Valor inválido. Por favor, digite um valor entre 1 e 4.");
                     break;
-            } 
+            }
+        }while(resposta != "4");
     }
     public static string WelcomeMessage() 
     {
@@ -43,29 +46,29 @@ class Program
         string resposta = Console.ReadLine();
         return resposta;
     }
-    static void addTask()
+    static void AddTask()
     {
+        limparConsol();
         Console.WriteLine("Digite sua nova tarefa, por favor.");
         Global.tarefa = Console.ReadLine();
         Global.tarefas.Add(Global.tarefa);
-        MostrarTarefas();
     }
-/*
     static void removeTask(){
         Console.WriteLine("nothing to do");
     }
-
-    static void viewTasks(){
-        Console.WriteLine("nothing to do...")
-    }
-*/
     static void MostrarTarefas()
     {
+       limparConsol();
         Console.WriteLine("---- Lista de Tarefas ----");
         foreach (string item in Global.tarefas)
         {
             Console.WriteLine(item);
         }
         Console.WriteLine("--------------------------");
+        
+    }
+    static void limparConsol()
+    {
+        Console.Clear();
     }
 }

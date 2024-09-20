@@ -1,10 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\OneDrive\\Documentos\\estudos\\c#\\estudos\\MusicBand\\",
+  "WorkspaceRootPath": "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\source\\repos\\Estudos-de-C-\\MusicBand\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{288D97A7-069E-424F-AB2C-0F76212B84FD}|MusicBand\\MusicBand.csproj|c:\\users\\jeanj.laptop-4gk6vv3h\\onedrive\\documentos\\estudos\\c#\\estudos\\musicband\\musicband\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288D97A7-069E-424F-AB2C-0F76212B84FD}|MusicBand\\MusicBand.csproj|solutionrelative:musicband\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{288D97A7-069E-424F-AB2C-0F76212B84FD}|MusicBand\\MusicBand.csproj|c:\\users\\jeanj.laptop-4gk6vv3h\\source\\repos\\estudos-de-c-\\musicband\\musicband\\tasklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288D97A7-069E-424F-AB2C-0F76212B84FD}|MusicBand\\MusicBand.csproj|solutionrelative:musicband\\tasklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\OneDrive\\Documentos\\estudos\\c#\\estudos\\MusicBand\\MusicBand\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +20,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAI8UAAAAAAAAAADwv5UUAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-09-19T00:48:23.152Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "tasklist.cs",
+              "DocumentMoniker": "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\source\\repos\\Estudos-de-C-\\MusicBand\\MusicBand\\tasklist.cs",
+              "RelativeDocumentMoniker": "MusicBand\\tasklist.cs",
+              "ToolTip": "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\source\\repos\\Estudos-de-C-\\MusicBand\\MusicBand\\tasklist.cs",
+              "RelativeToolTip": "MusicBand\\tasklist.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAASwEAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T00:20:05.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\OneDrive\\Documentos\\estudos\\c#\\estudos\\MusicBand\\MusicBand\\Program.cs",
-              "RelativeDocumentMoniker": "MusicBand\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Documentos\\estudos\\c#\\estudos\\MusicBand\\MusicBand\\Program.cs",
               "ToolTip": "C:\\Users\\jeanj.LAPTOP-4GK6VV3H\\OneDrive\\Documentos\\estudos\\c#\\estudos\\MusicBand\\MusicBand\\Program.cs",
-              "RelativeToolTip": "MusicBand\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Documentos\\estudos\\c#\\estudos\\MusicBand\\MusicBand\\Program.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T01:49:31.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-31T01:49:31.757Z"
             }
           ]
         }
