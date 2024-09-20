@@ -19,7 +19,6 @@ class Program
                 case "1":
                     AddTask();
                     break;
-                
             case "2":
                 removeTask();
                 break;
@@ -54,18 +53,27 @@ class Program
         Global.tarefas.Add(Global.tarefa);
     }
     static void removeTask(){
-        Console.WriteLine("nothing to do");
+        int contador = 0;
+        string numeroIndex;
+        Console.WriteLine("Qual tarefa você deseja apagar?");
+        foreach (string item in Global.tarefas)
+        {
+            Console.WriteLine(contador + " " + item);
+            contador++;
+        }
+        numeroIndex = Console.ReadLine();
+        int numeroIndexinteira = int.Parse(numeroIndex);
+        Global.tarefas.RemoveAt(numeroIndexinteira);
     }
     static void MostrarTarefas()
     {
-       limparConsol();
+        limparConsol();
         Console.WriteLine("---- Lista de Tarefas ----");
         foreach (string item in Global.tarefas)
         {
             Console.WriteLine(item);
         }
         Console.WriteLine("--------------------------");
-        
     }
     static void limparConsol()
     {
